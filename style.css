@@ -1,0 +1,113 @@
+html, body {
+    height: 100%;
+}
+
+.container {
+    height: 100%;
+    display: grid;
+    grid-template-rows: 15% 10% 20% 10% 35% 10% ;}
+
+.t{
+    background-color: rgb(31, 79, 128);
+    border-style: solid;
+    border-width: 3px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.a{
+    background-color:lightskyblue;
+    display:grid;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+
+.a1{
+    background-color: silver;
+    border-style: solid;
+    border-width: 3px;
+    text-align: center;
+}
+.a2{
+    background-color: silver;
+    border-style: solid;
+    border-width: 2px;
+    text-align: center;
+}
+.a3{
+    background-color: silver;
+    border-style: solid;
+    border-width: 1px;
+    text-align: center;
+}
+.a4{
+    background-color: silver;
+    border-style: solid;
+    border-width: 4px;
+    text-align: center;
+}
+
+.b {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+
+.b1{
+    background-color: red;
+    border-style: solid;
+    border-width: 3px;
+}
+.b2{
+    background-color: red;
+    border-style: solid;
+    border-width: 4px;
+}
+.b3{
+    background-color: red;
+    border-style: solid;
+    border-width: 1px;
+}
+.b4{
+    background-color: red;
+    border-style: solid;
+    border-width: 2px;
+}
+
+.c {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+
+.c1{
+    background-color: rgb(35, 124, 83);
+    border-style: solid;
+    border-width: 1px;
+    text-align: center;
+}
+.c2{
+    background-color: rgb(26, 126, 126);
+    border-style: solid;
+    border-width: 1px;
+    text-align: center;
+}
+.c3{
+    background-color: rgb(57, 58, 122);
+    border-style: solid;
+    border-width: 1px;
+    text-align: center;
+}
+.c4{
+    background-color: rgb(73, 54, 54);
+    border-style: solid;
+    border-width: 1px;
+    text-align: center;
+}
+
+#d{
+    background-color: rgb(31, 55, 63);
+}
+
+.e{
+    background-color: rgb(58, 15, 15);
+    text-align: center;
+    border-width: 20px;
+}
